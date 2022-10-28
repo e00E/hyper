@@ -42,7 +42,7 @@ libc = { version = "0.2", optional = true }
 socket2 = { version = "0.4", optional = true }
 
 [dev-dependencies]
-futures-util = { version = "0.3", default-features = false, features = ["alloc"] }
+futures-util = { version = "0.3", default-features = false, features = ["alloc", "async-await"] }
 http-body-util = "0.1.0-rc.1"
 matches = "0.1"
 num_cpus = "1.0"
